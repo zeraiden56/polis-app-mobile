@@ -1,8 +1,6 @@
 <p align="center">
-  <img src="assets/adaptive-icon.png" alt="Polis Gestão e Tecnologia" width="200" />
+  <img src="assets/adaptive-icon.png" alt="Polis Gestão e Tecnologia" width="400" />
 </p>
-
-<h1 align="center">Polis Ponto</h1>
 
 <p align="center">
   Aplicativo mobile de <strong>registro de ponto eletrônico</strong> para funcionários.<br/>
