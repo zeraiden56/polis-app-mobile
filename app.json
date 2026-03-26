@@ -14,7 +14,7 @@
     },
     "ios": {
       "bundleIdentifier": "com.polis.ponto",
-      "supportsTablet": true
+      "supportsTablet": false
     },
     "android": {
       "package": "com.polis.ponto",
@@ -35,6 +35,7 @@
       "favicon": "./assets/icon.png"
     },
     "plugins": [
+      "./plugins/withPhoneOnly",
       "expo-secure-store",
       [
         "expo-image-picker",
