@@ -2,21 +2,41 @@
   "name": "polis-app",
   "license": "0BSD",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web"
   },
   "dependencies": {
+    "@expo/vector-icons": "^15.0.3",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@react-navigation/native": "^7.1.25",
+    "@react-navigation/native-stack": "^7.8.6",
     "expo": "~54.0.27",
+    "expo-document-picker": "~14.0.8",
+    "expo-file-system": "~19.0.21",
+    "expo-image": "^3.0.11",
+    "expo-image-picker": "~17.0.10",
+    "expo-local-authentication": "~17.0.8",
+    "expo-location": "~19.0.8",
+    "expo-notifications": "~0.32.16",
+    "expo-secure-store": "~15.0.8",
     "expo-status-bar": "~3.0.9",
+    "expo-system-ui": "^6.0.9",
+    "lucide-react-native": "^0.559.0",
+    "nativewind": "^4.2.1",
     "react": "19.1.0",
-    "react-native": "0.81.5"
+    "react-native": "0.81.5",
+    "react-native-safe-area-context": "~5.6.0",
+    "react-native-screens": "~4.16.0",
+    "tailwindcss": "^3.4.19"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
+    "@types/react-native-vector-icons": "^6.4.18",
+    "babel-preset-expo": "^54.0.8",
+    "expo-module-scripts": "^5.0.8",
     "typescript": "~5.9.2"
   },
   "private": true

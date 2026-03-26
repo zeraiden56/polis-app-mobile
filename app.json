@@ -1,30 +1,65 @@
 {
   "expo": {
-    "name": "polis-app",
+    "name": "Polis Ponto",
     "slug": "polis-app",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
+    "icon": "./assets/icon.png",
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
+      "bundleIdentifier": "com.polis.ponto",
       "supportsTablet": true
     },
     "android": {
+      "package": "com.polis.ponto",
+      "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.USE_BIOMETRIC"
+      ]
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/icon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "O Polis Ponto usa a câmera para registrar sua batida de ponto com selfie.",
+          "photosPermission": "O Polis Ponto usa suas fotos para avatar e anexos de justificativa."
+        }
+      ],
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "O Polis Ponto usa sua localização para comprovar o registro de ponto no momento da batida."
+        }
+      ],
+      [
+        "expo-local-authentication",
+        {
+          "faceIDPermission": "Use o Face ID para fazer login rápido no Polis Ponto."
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "63c1c5d5-f626-4a40-b4ba-95abcfd528bb"
+      }
     }
   }
 }
