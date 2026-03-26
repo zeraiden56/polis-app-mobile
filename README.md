@@ -1,8 +1,31 @@
-# Polis Ponto
+<p align="center">
+  <img src="assets/adaptive-icon.png" alt="Polis Gestão e Tecnologia" width="200" />
+</p>
 
-Aplicativo mobile de **registro de ponto eletrônico** para funcionários. Permite bater ponto com selfie e geolocalização, consultar espelho de ponto, enviar justificativas com anexos e gerenciar perfil — tudo com autenticação biométrica opcional.
+<h1 align="center">Polis Ponto</h1>
 
-> **Stack:** Expo 54 · React Native 0.81 · TypeScript · NativeWind (Tailwind) · React Navigation
+<p align="center">
+  Aplicativo mobile de <strong>registro de ponto eletrônico</strong> para funcionários.<br/>
+  Batida com selfie e geolocalização, espelho de ponto, justificativas com anexos e perfil — tudo com autenticação biométrica opcional.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Expo-54-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo" />
+  <img src="https://img.shields.io/badge/React_Native-0.81-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React Native" />
+  <img src="https://img.shields.io/badge/TypeScript-5.9-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/NativeWind-4-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="NativeWind" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/React_Navigation-7-6B52AE?style=for-the-badge&logo=react&logoColor=white" alt="React Navigation" />
+  <img src="https://img.shields.io/badge/EAS_Build-16+-000020?style=for-the-badge&logo=expo&logoColor=white" alt="EAS Build" />
+  <img src="https://img.shields.io/badge/Node.js-≥18-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Android-APK_|_AAB-3DDC84?style=for-the-badge&logo=android&logoColor=white" alt="Android" />
+  <img src="https://img.shields.io/badge/iOS-App_Store-000000?style=for-the-badge&logo=apple&logoColor=white" alt="iOS" />
+</p>
 
 ---
 
